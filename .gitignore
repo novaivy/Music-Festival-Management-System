@@ -1,0 +1,4 @@
+/assets/uploads/
+/database/*.sql
+vendor/
+.env
