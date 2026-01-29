@@ -58,10 +58,10 @@ $res = $conn->query("SELECT r.reg_id, u.full_name, c.class_name, r.performance_t
 
 <div class="container">
   <section>
-    <h2>Welcome Back, Judge! 👨‍⚖️</h2>
+    <h2>Welcome Back, Judge! </h2>
     <p>Review and score the performances listed below. Your fair evaluation helps determine the winners.</p>
 
-    <h3 class="mt-4">📋 Performances Awaiting Your Score</h3>
+    <h3 class="mt-4"> Performances Awaiting Your Score</h3>
     
     <?php if ($res->num_rows > 0): ?>
       <div class="table-responsive">
@@ -90,7 +90,7 @@ $res = $conn->query("SELECT r.reg_id, u.full_name, c.class_name, r.performance_t
                 <td><?= esc($r['performance_title']) ?></td>
                 <td>
                   <a class="btn btn-primary btn-sm" href="upload_result.php?reg_id=<?= $r['reg_id'] ?>">
-                    ⭐ Score Now
+                    Score Now
                   </a>
                 </td>
               </tr>
@@ -123,4 +123,5 @@ $res = $conn->query("SELECT r.reg_id, u.full_name, c.class_name, r.performance_t
 
 <script src="assets/js/scripts.js"></script>
 </body>
+
 </html>
