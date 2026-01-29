@@ -1,6 +1,6 @@
 # Music Festival Management System
 
-Local dev: http://localhost/music_festival_system/
+Local dev: http://localhost:8080/music_festival_system/
 
 DB: import database/music_festival_db.sql into phpMyAdmin.
 
